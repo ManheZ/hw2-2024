@@ -1,0 +1,119 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family: Arial, Verdana, sans-serif;
+	background-color: #000000; /* Black background */
+	color: #FFFFFF; /* White font */
+	margin: 20px 20px 0; /* Margin of 20px on the top and sides, none on the bottom */
+  }
+h1 {
+	font-size: 42px;
+	text-align: center;
+	padding: 15px;
+}
+h2 {
+	font-size: 30px;
+	color: #0D0D0D; /* Dark gray font */
+}
+p {
+	font-size: 24px;
+	padding: 10px 0 0 10px; /* Padding of 10px on the top and left only */
+}
+img {
+	width: 250px; /* All images are 250px wide */
+	margin: 0 auto; /* Center images */
+	border: 10px dashed #FFFFFF; /* White 10px dashed border */
+	display: block;
+}
+div {
+	min-height: 125px; /* Flexible height of at least 125px tall */
+	padding: 20px; /* Padding of 20px on all sides */
+	border: 3px solid #FFFFFF; /* 3px solid white border on all sides */
+}
+.introduction {
+	border-radius: 15px; /* 15px border-radius to curve the edges */
+	margin-top: 15px; /* Margin of 15px on the top */
+	line-height: 2; /* Double-spaced text */
+}
+.red {
+	background-color: #FF0000; /* Red background */
+	text-align: right;
+	margin-left: 50px;
+	border-bottom: 2px solid;
+	border-left: 5px solid;
+}
+.blue {
+	background-color: #0000FF; /* Blue background */
+	text-align: left;
+	margin-right: 50px;
+	border-right: 5px solid;
+	border-top: 2px solid;
+	color: #C4C4C4; /* Fixing color contrast */
+}
+.yellow {
+	background-color: #FFFF00; /* Yellow background */
+	text-align: right;
+	margin-left: 50px;
+	border-bottom: 2px solid;
+	border-left: 5px solid;
+	color: #707070; /* Fixing color contrast */
+}
+.green {
+	background-color: #00EB00; /* Choose between #00EB00, #008500, #00D800 for green */
+	text-align: left;
+	margin-right: 50px;
+	border-right: 5px solid;
+	border-top: 2px solid;
+}
+footer {
+	background: linear-gradient(0deg, #000000, #0000ff 25%, #0066ff 70%, #000000);
+	border: 5px solid #FFFFFF;
+}
+footer p {
+	font-size: 20px;
+	text-align: right;
+	padding: 15px 15px 15px 0; /* Padding on the top, right, and bottom only */
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
